@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHopping | Home</title>
+
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/shoppingList.css" />
+
+    <!-- Toastify-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js" defer></script>
+
+    <script src="js/shoppingList.js" defer></script>
+    <script src="js/payment.js" defer></script>
+
+
+</head>
+
+<body>
+    <div class="page-layout">
+        <div class="shopping-page">
+            <div class="navbar">
+                <a href="index.html" class="btn"><i class="fa-solid fa-angle-left"></i></a>
+                <h1>Shopping Continue</h1>
+            </div>
+            <div class="shopping-cart">
+                <h1>Shopping cart</h1>
+                <p>You have 3 items in your cart</p>
+            </div>
+            <div id="cartItems">
+                <div class="item-details-container">
+                    <div class="item-details">
+                        <div class="image">
+                            <img src="img/parfume.jpg" alt="" width="100px">
+                        </div>
+
+                        <div class="item-detail">
+                            <h3>Italy Pizza</h3>
+                            <p>Description</p>
+                        </div>
+
+                        <div class="quantity1">
+                            <div class="quantity-wrapper">
+                                <span id="quantity">1</span>
+                                <div class="quantity-buttons">
+                                    <button><i class="fa-solid fa-sort-up"></i></button>
+                                    <button><i class="fa-solid fa-sort-down"></i></button>
+                                </div>
+                            </div>
+
+                            <span class="item-price"><span class="valute">$</span>4.50</span>
+
+                            <div class="price-trash">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="item-details-container">
+                        <div class="item-details">
+                            <div class="image">
+                                <img src="img/parfume.jpg" alt="" width="100px">
+                            </div>
+
+                            <div class="item-detail">
+                                <h3>Italy Pizza</h3>
+                                <p>Description</p>
+                            </div>
+
+                            <div class="quantity1">
+                                <div class="quantity-wrapper">
+                                    <span id="quantity">1</span>
+                                    <div class="quantity-buttons">
+                                        <button><i class="fa-solid fa-sort-up"></i></button>
+                                        <button><i class="fa-solid fa-sort-down"></i></button>
+                                    </div>
+                                </div>
+                                <span class="item-price"><span class="valute">$</span>4.50</span>
+
+                                <div class="price-trash">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-details-container">
+                        <div class="item-details">
+                            <div class="image">
+                                <img src="img/parfume.jpg" alt="" width="100px">
+                            </div>
+
+                            <div class="item-detail">
+                                <h3>Italy Pizza</h3>
+                                <p>Description</p>
+                            </div>
+
+                            <div class="quantity1">
+                                <div class="quantity-wrapper">
+                                    <span id="quantity">1</span>
+                                    <div class="quantity-buttons">
+                                        <button><i class="fa-solid fa-sort-up"></i></button>
+                                        <button><i class="fa-solid fa-sort-down"></i></button>
+                                    </div>
+                                </div>
+                                <span class="item-price"><span class="valute">$</span>4.50</span>
+
+                                <div class="price-trash">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="form">
+            <div class="title-style">
+                <h2 class="title-details">Card Details</h2>
+                <h3>Card type</h3>
+            </div>
+
+            <div class="card-type">
+                <div class="cards">
+                    <img src="img/mastercard.png" alt="Mastercard" width="55px">
+                    <img src="img/visacard.png" alt="Visa" width="45px">
+                    <img src="img/rupaycard.jpg" alt="Rupay" width="50px">
+                    <button class="see-all">See all</button>
+                </div>
+
+            </div>
+
+            <div class="payment-form">
+
+                <label>Name on card</label>
+                <input type="text" placeholder="Name" id="cardName">
+
+                <label>Card number</label>
+                <input type="text" placeholder="0000 0000 0000 0000" id="cardNumber">
+
+                <div class="row">
+                    <div class="col">
+                        <label>Expiry date</label>
+                        <input type="text" placeholder="MM/YY" id="expiryDate">
+                    </div>
+
+                    <div class="col">
+                        <label>CVV</label>
+                        <input type="text" placeholder="123" id="cvv">
+                    </div>
+                </div>
+
+                <div class="summary-box">
+                    <div class="line">
+                        <span>Subtotal</span>
+                        <span>$80.00</span>
+                    </div>
+
+                    <div class="line">
+                        <span>Shipping</span>
+                        <span>$5.00</span>
+                    </div>
+
+                    <div class="line total">
+                        <span>Total</span>
+                        <span>$85.00</span>
+                    </div>
+
+                    <div class="checkout-footer">
+                        <span class="total-price">$85.00</span>
+
+                        <div class="checkout-group">
+                            <button class="checkout-btn" id="checkoutBtn">Checkout</button>
+
+                            <i class="fa-solid fa-arrow-right arrow-icon"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+</body>
+
+</html>
