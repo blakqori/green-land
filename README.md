@@ -3,6 +3,9 @@
 **Green Land** është një dyqan online që ofron produkte nga natyra dhe kategori të ndryshme si: Premium Fruits, Home & Kitchen, Fashion, Electronics dhe Beauty. Projekti përdor **HTML, CSS dhe JavaScript**.
 
 ---
+## Live Demo
+👉 https://green-land-bay.vercel.app/index.html
+
 
 ## Karakteristikat Kryesore
 - Faqe kryesore me hero section dhe kategori produktesh.  
